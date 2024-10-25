@@ -1,0 +1,28 @@
+{
+  "name": "web-proxy",
+  "version": "1.0.0",
+  "description": "A simple web proxy server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/your-repo-name.git"
+  },
+  "keywords": [
+    "proxy",
+    "web",
+    "server"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
